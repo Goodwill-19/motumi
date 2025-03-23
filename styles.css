@@ -1,0 +1,290 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    color: #4a4a4a;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #228b22;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #00BCD4;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #ffd700;
+}
+.navbar li{
+    float: left;
+}
+button{
+    background-color: #6a5acd;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 16px;
+    float: right;
+    margin-right: 16px;
+}
+button:hover{
+    background-color: #ffd700;
+}
+.prg1 img:hover{
+    background-color: #ffd700;
+}
+h1{
+    font-family: Arial Bold;
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px ;
+
+}
+.heading1{
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.section1{
+    display: flex;
+}
+#section-text{
+    width: 50%;
+}
+.headimage{
+    width: 50%;
+}
+#himage{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    text-align: right;
+    padding-top: 100px;
+    margin-right: 25px;
+    color: #ffd700;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.banner-subtext{
+    text-align: right;
+    color: aqua;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 10px;
+    font-family: Tahoma;
+    margin-right: 20px;
+    
+}
+.banner-butt{
+    background-color: #6a5acd;
+    color: #ffffff;
+    float: center;
+    margin-bottom: 10px;
+}
+#content-1{
+    position: relative;
+    
+}
+.content-head h1{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.content-text{
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#services{
+    display: flex;
+}
+#service-boxes{
+    display: grid;
+}
+#pricing-section{
+    max-width: 1060;
+    margin: o auto;
+}
+.overtitle{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 18px;  
+    transform: uppercase;
+    color: #ffd700;
+    text-align: center;
+}
+.section-heading{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.section-subtittle{
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+#pricing-boxes{
+    display: flex;
+    margin-top: 22px;
+}
+.pricing-boxes{
+    width: 33.33%;
+    
+
+}
+.pricing-card{
+    background-color: #ffffff;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow:6px 2px -9px #0000001A ;
+    padding:20px ;
+}
+.service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 21px ;
+    text-transform: uppercase;
+    color: #228b22;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 8px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #4a4a4a;
+}
+.service-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 21px ;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    margin-top: 8px;
+}
+.service-benefits{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+.service-benefits li{
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4a4a4a;
+} 
+.price-per{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #ffd700;
+     
+}
+.service-contact-button{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #2f2f2f ;
+    background-color: #fafafa ;
+
+    color: #4a4a4a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+
+}
+.service-contact-button:hover {
+    background-color: #ffd700;
+    color: #fafafa;
+    cursor: pointer;
+
+}
+.pricing-card.box-2{
+    background-color: #ffd700;
+
+}
+.box-2.price-per{
+    color: black;
+}
+.box-2.service-benefits{
+    color:  #228b22;
+}
+.box-2.service-description{
+    color:  #228b22;
+}
+.box-2.service-benefits{
+    color:  #228b22;
+}
+.box-2 li{
+    color:  #228b22;
+}
+.box-2.service{
+    color:  #228b22;
+}
+.box-2.service-contact-button{
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.box-2.service-contact-button:hover{
+    background-color: #228b22;
+    color:  #fafafa;    
+} 
+
+#banner{
+    background-image: url(computer-8779036_1280.jpg);
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-position: center;
+    margin-top: 20px;
+    height: 300px;
+
+}
+.image-edit{
+    margin-top: 8px;
+    padding: auto;
+}
+#services{
+    text-align: center;
+}
+.stake{
+    display: inline-block;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 0;
+    width: 500px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,);
+}
+.stake-info {
+    flex: 5;
+    margin-right: 20px;
+    
+}
